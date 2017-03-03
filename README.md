@@ -1,6 +1,25 @@
 # JsonOperations
 This project contains demo for all the basic operations on JSON using JavaScript
+#Basic Operations
+var array = [];//Create a blank Array
 
+arr.push(10);//Add an element on the last index + 1 of array.
+//the above line could also be written as below
+arr[arr.length] = 10;//arr is filled till arr.length - 1 index, adding new element to next index.
+
+arr.push(20);
+arr.push(30);
+arr.push(40);
+arr.push(50);
+
+
+console.log(arr[1]);//Access element by index no.
+
+arr.pop();//Takes out the max index element from arr and return it. This element will be #deleted# from arr.
+
+
+
+#Add Element at begaining
 
 # Sorting a JSON Array of Objects.
 
