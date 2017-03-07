@@ -21,6 +21,15 @@ arr.pop();//Takes out the max index element from arr and return it. This element
 
 #Add Element at begaining
 
+#ReplaceAll in JavaScript:
+1. 
+String.prototype.replaceAll = function (toReplace, replaceWith)
+{
+    return this.split(toReplace).join(replaceWith);
+}
+2. 
+str = str.replace(/John/gi,'He');
+
 # Sorting a JSON Array of Objects.
 
 var Employees = 
