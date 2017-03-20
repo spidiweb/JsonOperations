@@ -19,7 +19,7 @@ arr.pop();//Takes out the max index element from arr and return it. This element
 
 
 
-#Add Element at begaining
+#Add Element at begining
 
 #ReplaceAll in JavaScript:
 1. 
@@ -29,6 +29,23 @@ String.prototype.replaceAll = function (toReplace, replaceWith)
 }
 2. 
 str = str.replace(/John/gi,'He');
+# Searching in Array of Objects:
+var Employees = 
+  [
+    {ID:1, Name:'Spidi',DOB:'26-May-1992',Salary:2010000},
+    {ID:2, Name:'John',DOB:'6-June-1987',Salary:2510000},
+    {ID:3, Name:'Petr',DOB:'6-July-1992',Salary:210000},
+    {ID:4, Name:'Joe',DOB:'2-August-1992',Salary:2310000},
+    {ID:5, Name:'Frank',DOB:'2-Sept-1992',Salary:3010000},
+    {ID:6, Name:'Aman',DOB:'16-Javuary-1992',Salary:4010000}
+  ];
+  
+//Using filter function
+var result = Employees.filter(function(elem){
+   //return true or false from here. true means this element is the part of resultset for your search.
+   //Example: Search employee with salary more than 230000
+   return elem.Salary > 230000;
+})
 
 # Sorting a JSON Array of Objects.
 
