@@ -1,6 +1,6 @@
 # JsonOperations
 This project contains demo for all the basic operations on JSON using JavaScript
-#Basic Operations
+# Basic Operations
 var array = [];//Create a blank Array
 
 arr.push(10);//Add an element on the last index + 1 of array.
@@ -19,7 +19,7 @@ arr.pop();//Takes out the max index element from arr and return it. This element
 
 
 
-#Add Element at begining
+# Add Element at begining
 
 #ReplaceAll in JavaScript:
 1. 
